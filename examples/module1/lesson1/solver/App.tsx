@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from './components/Input';
-import Button from './components/Buttons';
+import Button from './components/Button';
 const App = () => {
   const [numA, setNumA] = useState<number>(0);
   const [numB, setNumB] = useState<number>(0);
