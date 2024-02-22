@@ -16,7 +16,7 @@ function CharacterSearchContainer() {
   return (
     <>
       <div className="pt-24" />
-      <SearchTitle />
+      <SearchTitle/>
       <SearchForm
         name={name}
         setName={setName}
