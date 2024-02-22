@@ -26,8 +26,7 @@ function CharacterSearchContainer() {
         setSortOption={setSortOption}
       />
       <div className="pt-12" />
-      <CharacterList characters={sortedCharacters} />
-    </>
+      <CharacterList characters={sortedCharacters} /> </>
   );
 }
 
